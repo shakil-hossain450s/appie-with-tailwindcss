@@ -5,14 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Appie</title>
-    <!-- tailwind and daisyUI Link -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- tailwindCss Link -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
     <!-- header start -->
-    <header></header>
+    <header>
+        <nav class="bg-[#0E1133] py-6">
+            <div class="container mx-auto px-8 lg:px-24">
+                <div class="flex text-white justify-between">
+                    <div class="flex items-center space-x-6">
+                        <div>
+                            <img src="./assets/logo-3.png" alt="">
+                        </div>
+                        <div class="space-x-3 font-medium text-lg hidden lg:block">
+                            <a href="#" class="hover:text-[#ff6b58] duration-200">Home</a>
+                            <a href="#" class="hover:text-[#ff6b58] duration-200">About</a>
+                            <a href="#" class="hover:text-[#ff6b58] duration-200">Services</a>
+                            <a href="#" class="hover:text-[#ff6b58] duration-200">Blog</a>
+                            <a href="#" class="hover:text-[#ff6b58] duration-200">Contact</a>
+                        </div>
+                    </div>
+                    <div class="space-x-3 hidden lg:block">
+                        <button class="text-xl font-semibold">Login</button>
+                        <button class="bg-[#ff6b58] text-lg px-6 py-3 font-medium rounded-sm hover:bg-transparent border-2 border-[#ff6b58] duration-300">Get Started</button>
+                    </div>
+                    <div class="lg:hidden">
+                        <img class="w-8 h-8" src="./assets/more.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <!-- header end -->
     <!-- main start -->
     <main></main>
